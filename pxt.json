@@ -10,7 +10,11 @@
         "main.ts",
         "README.md",
         "assets.json",
-        "tiles.ts"
+        "tiles.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "helper.ts",
+        "rng.ts"
     ],
     "testFiles": [
         "test.ts"

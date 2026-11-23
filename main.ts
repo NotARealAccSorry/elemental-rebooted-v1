@@ -1,19 +1,8 @@
-
-/*
-ELEMENTS AND HOW THEY WORK
- Elements are temporary battle buffs the player gets.
- Elements passively give something
- 
- . To materialize(create) these the player has 
- to play a card jkjk
-*/
 enum Element {
     Fire,
     Water,
-    Lightning,
     Ground,
     Air,
-    Chaos//secret element
 }
 class Card {
     damage:number
@@ -21,7 +10,22 @@ class Card {
     cost:number
     materialize:Element
     consume:Element
-    constructor(damage:number,defense:number,materialize:Element,consume:Element){
+    constructor(damage:number,defense:number,cost:number,materialize:Element,consume:Element){
         this.damage=damage
+        this.defense=defense
+        this.cost=cost
+        this.materialize=materialize
+        this.consume=consume
     }
+}
+enum Intents{
+    Attack,
+    Debuff,
+    Buff,
+    DestroyElement,
+    CreateCurse
+}
+interface EnemyAction{
+    intent:Intents
+    identifier?:number|Element
 }
