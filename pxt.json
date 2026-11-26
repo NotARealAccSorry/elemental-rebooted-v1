@@ -1,5 +1,5 @@
 {
-    "name": "Elemental rebooted v0.0.2",
+    "name": "Elemental rebooted v0.0.2 - Copy",
     "description": "",
     "dependencies": {
         "device": "*",
@@ -23,12 +23,30 @@
         "branch": "stable4.1",
         "tag": "v4.1.27",
         "commits": "https://github.com/microsoft/pxt-arcade/commits/401d844a09f01717919937e218e14e9cea9fa83a",
-        "target": "4.1.28",
+        "target": "4.1.32",
         "pxt": "13.1.24",
         "targetId": "arcade"
     },
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "palette": [
+        "#000000",
+        "#222428",
+        "#5C596F",
+        "#A59AB6",
+        "#F4F0F4",
+        "#703F30",
+        "#D5555F",
+        "#FF95CF",
+        "#D7772D",
+        "#F3C775",
+        "#FFD8C3",
+        "#186444",
+        "#7CA230",
+        "#2B51A7",
+        "#169AC8",
+        "#81D5D7"
+    ]
 }
