@@ -80,10 +80,32 @@ d f f f f f f f f d . . . . . .
 91dfeeeddd6888866649
 81dfedd6666898866448
 81dfedd6666898866448
-81dfed65888889886648
-81dffd55588889886648
-812ddd55555889986448
+81dfed66688889886648
+81dffd66888889886648
+812ddd66888889986448
 88889999999999998888
+`;
+            case "image6":
+            case "myImage3":return img`
+. . . . . . 4 3 
+. . . . . 4 3 2 
+. . . . 4 3 2 . 
+. . . 4 3 2 . . 
+. . 4 3 2 . . . 
+5 5 3 2 . . . . 
+. 5 5 . . . . . 
+5 . 5 . . . . . 
+`;
+            case "image5":
+            case "myImage2":return img`
+. . d d d d . . 
+d d f f f f d d 
+d f e e e e f d 
+d f e e e e f d 
+. d f e e f d . 
+. d f e e f d . 
+. . d f f d . . 
+. . . d d . . . 
 `;
         }
         return null;
